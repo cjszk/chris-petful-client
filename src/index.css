@@ -1,5 +1,52 @@
-body {
+* {
+  box-sizing: border-box;
   margin: 0;
   padding: 0;
+}
+
+body {
+  margin: 10px 50px;
+  text-align: center;
+  padding: 0;
   font-family: sans-serif;
+}
+
+img {
+  width: 400px;
+  height: 300px;
+}
+
+.cats, .dogs {
+  display: inline-block;
+  width: 45%;
+  text-align: left;
+  margin-left: 10px;
+  padding: 50px;
+}
+
+dt, dd {
+  font-size: 20px;
+}
+
+dt {
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+dd {
+  margin-left: 10px;
+}
+
+ul {
+  list-style: none;
+  text-align: left;  
+}
+
+p {
+  font-size: 24px;
+  margin: 20px;
+}
+
+button {
+  font-size: 24px;
 }
